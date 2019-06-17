@@ -1,0 +1,27 @@
+TimeLine:
+- 'feature': 'Feature_1'
+  'user': 'USER_1'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 0000000001
+  'time': !!timestamp '2018-8-15 2:12:34'
+
+- 'feature': 'Feature_1'
+  'user': 'USER_2'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_2'
+  'rowType': 'Activate'
+  'instanceId': 0000000002
+  'time': !!timestamp '2018-8-20 2:12:34'
+
+- 'feature': 'Feature_1'
+  'user': 'USER_3'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_3'
+  'rowType': 'Activate'
+  'instanceId': 0000000003
+  'time': !!timestamp '2018-8-20 2:12:34'

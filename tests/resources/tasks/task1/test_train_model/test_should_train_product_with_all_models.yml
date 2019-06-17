@@ -1,0 +1,182 @@
+---
+TimeLine:
+- 'feature': 'frame1'
+  'user': 'USER_1'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 1
+  'time': !!timestamp '2018-8-20 2:12:34'
+
+- 'feature': 'frame11'
+  'user': 'USER_1'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 1
+  'time': !!timestamp '2018-8-20 2:14:00'
+
+- 'feature': 'frame1'
+  'user': 'USER_2'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_2'
+  'rowType': 'Activate'
+  'instanceId': 2
+  'time': !!timestamp '2018-8-20 2:12:34'
+
+- 'feature': 'frame12'
+  'user': 'USER_2'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_2'
+  'rowType': 'Activate'
+  'instanceId': 2
+  'time': !!timestamp '2018-8-20 2:14:00'
+
+- 'feature': 'frame1'
+  'user': 'USER_1'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 2
+  'time': !!timestamp '2018-8-20 2:12:34'
+
+- 'feature': 'frame13'
+  'user': 'USER_1'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 2
+  'time': !!timestamp '2018-8-20 2:14:00'
+
+- 'feature': 'frame2'
+  'user': 'USER_2'
+  'cnpj': '00000000002'
+  'product': 'AA'
+  'machine': 'MACHINE_2'
+  'rowType': 'Activate'
+  'instanceId': 2
+  'time': !!timestamp '2018-8-20 2:12:34'
+
+- 'feature': 'frame21'
+  'user': 'USER_2'
+  'cnpj': '00000000002'
+  'product': 'AA'
+  'machine': 'MACHINE_2'
+  'rowType': 'Activate'
+  'instanceId': 2
+  'time': !!timestamp '2018-8-20 2:14:00'
+
+- 'feature': 'frame3'
+  'user': 'USER_1'
+  'cnpj': '00000000002'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 2
+  'time': !!timestamp '2018-8-20 2:12:34'
+
+- 'feature': 'frame31'
+  'user': 'USER_1'
+  'cnpj': '00000000002'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 2
+  'time': !!timestamp '2018-8-20 2:14:00'
+
+Models:
+- "product": "AA"
+  "model_id": "AA"
+  "accuracy":
+    "day": 20
+    "total": 0
+    "historic": []
+    "hits": []
+  "model":
+    "frame1":
+      "frame11": 3
+      "frame12": 3
+
+    "frame2":
+      "frame21": 3
+      "frame22": 3
+
+
+- "model_id": "AA00000000001"
+  "cnpj": "00000000001"
+  "product": "AA"
+  "accuracy":
+    "day": 20
+    "total": 0
+    "historic": []
+    "hits": []
+  "model":
+    "frame1":
+      "frame11": 2
+      "frame12": 2
+
+    "frame2":
+      "frame21": 2
+      "frame22": 2
+
+
+- "model_id": "AA00000000002"
+  "cnpj": "00000000002"
+  "product": "AA"
+  "accuracy":
+    "day": 20
+    "total": 0
+    "historic": []
+    "hits": []
+  "model":
+    "frame1":
+      "frame11": 1
+      "frame12": 1
+
+    "frame2":
+      "frame21": 1
+      "frame22": 1
+
+
+- "model_id": "AA00000000001USER_1"
+  "cnpj": "00000000001"
+  "product": "AA"
+  "user": "USER_1"
+  "accuracy":
+    "day": 20
+    "total": 0
+    "historic": []
+    "hits": []
+  "model":
+    "frame1":
+      "frame11": 1
+      "frame12": 1
+
+    "frame2":
+      "frame21": 1
+      "frame22": 1
+
+
+- "model_id": "AA00000000001USER_2"
+  "cnpj": "00000000001"
+  "product": "AA"
+  "user": "USER_2"
+  "accuracy":
+    "day": 20
+    "total": 0
+    "historic": []
+    "hits": []
+  "model":
+    "frame1":
+      "frame11": 1
+      "frame12": 1
+
+    "frame2":
+      "frame21": 1
+      "frame22": 1

@@ -1,0 +1,11 @@
+Flask==1.0
+numpy==1.16.3
+pymongo==3.4.0
+pyyaml==3.13
+pytest==3.8.2
+requests==2.19
+scipy==1.2.1
+Werkzeug==0.14.1
+azure-cosmos==3.0.1
+networkx==2.1
+azure-storage-blob==1.4.0

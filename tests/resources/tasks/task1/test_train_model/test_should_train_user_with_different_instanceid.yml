@@ -1,0 +1,56 @@
+---
+TimeLine:
+- 'feature': 'frame1'
+  'user': 'USER_1'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 1
+  'time': !!timestamp '2018-8-15 2:05:10'
+
+- 'feature': 'frame13'
+  'user': 'USER_1'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 1
+  'time': !!timestamp '2018-8-15 2:11:10'
+
+- 'feature': 'frame1'
+  'user': 'USER_1'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 2
+  'time': !!timestamp '2018-8-15 2:15:10'
+
+- 'feature': 'frame13'
+  'user': 'USER_1'
+  'cnpj': '00000000001'
+  'product': 'AA'
+  'machine': 'MACHINE_1'
+  'rowType': 'Activate'
+  'instanceId': 2
+  'time': !!timestamp '2018-8-15 2:21:10'
+
+Models:
+- "model_id": "AA00000000001USER_1"
+  "cnpj": "00000000001"
+  "product": "AA"
+  "user": "USER_1"
+  "accuracy":
+    "day": 20
+    "total": 0
+    "historic": []
+    "hits": []
+  "model":
+    "frame1":
+      "frame11": 1
+      "frame12": 1
+
+    "frame2":
+      "frame21": 2
+      "frame22": 2
