@@ -19,11 +19,11 @@ def get_collection(coll_name):
 @pytest.fixture()
 def test_mongodb(request):
     path_dataset = request.node.nodeid
-    path_dataset = path_dataset.replace("siga", "")
+    path_dataset = path_dataset.replace("tests/siga", "")
     path_dataset = path_dataset.replace(".py::", "/")
     resources = ROOT_DIR + '/resources'
 
-    test_yml = resources + path_dataset + '.yml'
+    test_yml = os.path.normpath(resources + path_dataset + '.yml')
 
     stream = open(test_yml, 'r')
 

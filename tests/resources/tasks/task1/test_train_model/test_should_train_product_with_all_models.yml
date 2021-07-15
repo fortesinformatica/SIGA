@@ -100,13 +100,16 @@ Models:
     "hits": []
   "model":
     "frame1":
-      "frame11": 3
-      "frame12": 3
+      "frame11": 4
+      "frame12": 4
+      "frame13": 1
 
     "frame2":
-      "frame21": 3
+      "frame21": 4
       "frame22": 3
 
+    "frame3":
+      "frame31": 1
 
 - "model_id": "AA00000000001"
   "cnpj": "00000000001"

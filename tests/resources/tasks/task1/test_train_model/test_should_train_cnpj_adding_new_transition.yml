@@ -49,7 +49,11 @@ Models:
     "frame1":
       "frame11": 1
       "frame12": 1
+      "frame13": 1
 
     "frame2":
       "frame21": 2
       "frame22": 2
+
+    "frame3":
+      "frame31": 1

@@ -30,7 +30,8 @@ class BlobManager:
     account_name = getenv("BLOBS_NAME")
     account_key = getenv("BLOBS_KEY")
     container_name = BlobsContainers.timeline.value
-    block_blob_service = BlockBlobService(account_name=account_name, account_key=account_key)
+    blobs_emulated = getenv("BLOBS_EMULATED", False)
+    block_blob_service = BlockBlobService(account_name=account_name, account_key=account_key, is_emulated=blobs_emulated)
 
     @staticmethod
     def save_document_as_blob(document, container=BlobsContainers.models.value):

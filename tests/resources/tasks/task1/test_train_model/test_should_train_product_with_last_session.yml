@@ -129,9 +129,18 @@ Models:
     "frame1":
       "frame11": 1
       "frame12": 1
+      "frame13": 2
+
+    "frame12":
+      "frame1": 2
+      "frame2": 2
+
+    "frame22":
+      "frame1": 2
+      "frame2": 2
 
     "frame2":
-      "frame21": 2
+      "frame21": 4
       "frame22": 2
 
 
